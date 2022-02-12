@@ -1,208 +1,204 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: 'Krona One', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --main-color: #5e5eff;
-    --secondary-color: white;
-    
-
+body {
+  font-family: "Krona One", sans-serif;
 }
 
-menu{
-    position: fixed;
-    width: 13rem;
-    height: 64rem;
+:root {
+  --main-color: #5e5eff;
+  --secondary-color: white;
 }
 
-.page-title a{
-    text-decoration: none;
-}
-.nav-bar{
-    position: absolute;
-    width: 13rem;
-    height: 92%;
-    background-color: var(--main-color);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-
+menu {
+  position: fixed;
+  width: 13rem;
+  height: 64rem;
 }
 
-#menu li{
-    display: inline-block;
-    border: #5e5eff solid 1px;
-    padding: 5px;
-    width: 100%;
+.page-title a {
+  text-decoration: none;
+}
+.nav-bar {
+  position: absolute;
+  width: 13rem;
+  height: 92%;
+  background-color: var(--main-color);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
 }
 
-#menu li:hover{
-    background-color: var(--secondary-color);
-    border-radius: 5px;
+#menu li {
+  display: inline-block;
+  border: #5e5eff solid 1px;
+  padding: 5px;
+  width: 100%;
 }
 
-#menu li:hover a{
-    color: var(--main-color);
+#menu li:hover {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
 }
 
-#menu a{
-    color: var(--secondary-color);
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
+#menu li:hover a {
+  color: var(--main-color);
 }
 
-main{
-    position: absolute;
-<<<<<<< HEAD
-width: 90.563rem;
-height: 62rem;
-margin-left: 13.438rem;
+#menu a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-main div{
-    margin-top: 1rem; 
+main {
+  position: absolute;
+  width: 90.563rem;
+  height: 62rem;
+  margin-left: 13.438rem;
 }
 
-#experience-text ul{
-    margin-left: 2rem;
-    margin-top: 1rem;
+main div {
+  margin-top: 1rem;
 }
 
-#experience-text{
-    /* border: #5e5eff solid 1px; */
-    display: flex
+#experience-text ul {
+  margin-left: 2rem;
+  margin-top: 1rem;
 }
 
-.text-container{
-    /* border: green solid 2px; */
-    width: 78%;
-}
-.text-container p{
-    margin-top: 1rem;
+#experience-text {
+  /* border: #5e5eff solid 1px; */
+  display: flex;
 }
 
-.experience-date{
-    /* border: black solid 2px; */
-    margin-left: auto;
+.text-container {
+  /* border: green solid 2px; */
+  width: 78%;
+}
+.text-container p {
+  margin-top: 1rem;
 }
 
-.text-container figure img{
-    /* border: black solid 3px; */
-    width: 100%;
-    height: 100%;
+.experience-date {
+  /* border: black solid 2px; */
+  margin-left: auto;
 }
 
-.text-container figure{
-    /* border: red solid 3px; */
-    width: 100%;
+.text-container figure img {
+  /* border: black solid 3px; */
+  width: 100%;
+  height: 100%;
 }
 
-#about-me{
-    display: flex;
-    /* border: black solid 2px; */
-    height: 50%;
+.text-container figure {
+  /* border: red solid 3px; */
+  width: 100%;
 }
 
-.about-me_text{
-    width: 40%;
-    /* border: #5e5eff solid 2px; */
+#about-me {
+  display: flex;
+  /* border: black solid 2px; */
+  height: 50%;
 }
 
-.about-me_text p{
-    margin-bottom: 1rem;
-}
-.about-me_text h2{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.about-me_text {
+  width: 40%;
+  /* border: #5e5eff solid 2px; */
 }
 
-#about-me figure{
-    /* border: orange solid 2px; */
-    width: 60%;
-    margin-top: 1rem;
-    align-items: center;
+.about-me_text p {
+  margin-bottom: 1rem;
 }
-#about-me figure img{
-    /* border: fuchsia solid 2px; */
-    height: 100%;
-    padding-left: 10rem;
-}
-form{
-    /* border: #5e5eff solid 3px; */
-    display: grid;
-    margin-top: 1rem;
+.about-me_text h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-label{
-    padding-bottom: 1rem;
+#about-me figure {
+  /* border: orange solid 2px; */
+  width: 60%;
+  margin-top: 1rem;
+  align-items: center;
+}
+#about-me figure img {
+  /* border: fuchsia solid 2px; */
+  height: 100%;
+  padding-left: 10rem;
+}
+form {
+  /* border: #5e5eff solid 3px; */
+  display: grid;
+  margin-top: 1rem;
 }
 
-input{
-    width: 5%;
-}
-.contact-me{
-    /* border: black solid 2px; */
+label {
+  padding-bottom: 1rem;
 }
 
-=======
-
-
-.image-carrousel{
-    
-        max-width: 1000px;
-        position: relative;
-        margin: auto;
-      
+input {
+  width: 5%;
+}
+.contact-me {
+  /* border: black solid 2px; */
 }
 
-.carrousel-image{
-    display: none;
+.image-carrousel {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
+.carrousel-image {
+  display: none;
+}
 
 .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: var(--main-color);
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
->>>>>>> hero
+.active,
+.dot:hover {
+  background-color: #717171;
+}
 
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

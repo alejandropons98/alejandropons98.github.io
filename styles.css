@@ -29,7 +29,7 @@ menu{
 .nav-bar{
     position: absolute;
     width: 13rem;
-    height: 58rem;
+    height: 92%;
     background-color: var(--main-color);
     text-align: center;
     display: flex;

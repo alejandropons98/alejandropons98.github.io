@@ -154,13 +154,22 @@ input {
 
 .image-carrousel {
   max-width: 1000px;
-  position: relative;
+  position: absolute;
   margin: auto;
 }
 
 .carrousel-image {
   display: none;
+  /* border: black solid 2px; */
+  width: 90.563rem;
+  height: 30rem;
 }
+
+.carrousel-image img{
+    /* border: fuchsia solid 2px; */
+    width: 90.563rem;
+    height: 30rem;
+  }
 
 .dot {
   cursor: pointer;
@@ -202,3 +211,5 @@ input {
     opacity: 1;
   }
 }
+
+

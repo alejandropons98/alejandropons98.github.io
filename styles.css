@@ -63,4 +63,19 @@ menu{
     font-weight: bold;
 }
 
+main{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 13rem;
+}
+
+.image-carrousel{
+    position: absolute;
+    left: 7.125rem;
+    top: 6.438rem;
+    width: 100%;
+}
+
+
 

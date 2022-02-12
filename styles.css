@@ -26,7 +26,7 @@ menu {
 }
 .nav-bar {
   position: absolute;
-  width: 13rem;
+  width: 15rem;
   height: 92%;
   background-color: var(--main-color);
   text-align: center;
@@ -64,7 +64,7 @@ main {
   position: absolute;
   width: 90.563rem;
   height: 62rem;
-  margin-left: 13.438rem;
+  margin-left: 20rem;
 }
 
 main div {
@@ -109,6 +109,7 @@ main div {
   display: flex;
   /* border: black solid 2px; */
   height: 50%;
+  margin-top: 30rem;
 }
 
 .about-me_text {

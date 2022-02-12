@@ -1,6 +1,6 @@
-const contactForm = document.getElementsByClassName("contact-me_form");
+const contactForm = document.getElementById("contact_form");
 const userName = document.getElementById("name");
-const userEmail = document.getElementsById("email");
+const userEmail = document.getElementById("email");
 const userMessage = document.getElementById("message");
 
 contactForm.addEventListener('submit', function(event){

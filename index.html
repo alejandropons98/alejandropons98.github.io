@@ -17,27 +17,24 @@
                 <div class="nav-bar_container" id="menu">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">Experience</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Contact Me</a></li>
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact-me">Contact Me</a></li>
                     </ul>
                 </div>
             </nav>
-            <div class="menu-footer">
-
-            </div>
     </menu>
     </header>
     <main>
         <div class="image-carrousel">
-            <figure class="carrousel-image">
+            <figure class="carrousel-image fade">
             <img src="https://www.akc.org/wp-content/uploads/2017/11/Labrador-Retriever-MP-500x486.jpg" alt="Hello!">
         </figure>
-        <figure class="carrousel-image">
+        <figure class="carrousel-image fade">
             <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=640:*" alt="Hello!">
         </figure>
-        <figure class="carrousel-image">
+        <figure class="carrousel-image fade">
             <img src="https://d17fnq9dkz9hgj.cloudfront.net/uploads/2020/04/shelter-dog-cropped-1.jpg" alt="Hello!">
         </figure>
         </div>
@@ -108,17 +105,17 @@
             </div>
 
         </div>
-        <div class="skills">
+        <div class="skills" id="skills">
 
         </div>
-        <div class="contact-me">
+        <div class="contact-me" id="contact-me">
             <div class="contact-me_title">
                 <h1>Contáctame</h1>
             </div>
             <div class="message">
                 <p>Por aqui te dejo un formulario por si tienes algun comentario o quieres contactarme.</p>
             </div>
-            <form action="" class="contact-me_form" onsubmit="alert('Has enviado el formulario');">
+            <form action="" class="contact-me_form" id="contact_form" onsubmit="alert('Has enviado el formulario');">
                 <label for="name">
                     <span>Nombre</span>
                     <input type="text" id="name" autocomplete="name" required>

@@ -108,5 +108,35 @@ main div{
     width: 100%;
 }
 
+#about-me{
+    display: flex;
+    border: black solid 2px;
+    height: 50%;
+}
+
+.about-me_text{
+    width: 40%;
+    border: #5e5eff solid 2px;
+}
+
+.about-me_text p{
+    margin-bottom: 1rem;
+}
+.about-me_text h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#about-me figure{
+    border: orange solid 2px;
+    width: 60%;
+    margin-top: 1rem;
+    align-items: center;
+}
+#about-me figure img{
+    border: fuchsia solid 2px;
+    height: 100%;
+    padding-left: 10rem;
+}
 
 

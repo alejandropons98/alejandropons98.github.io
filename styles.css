@@ -63,4 +63,10 @@ menu{
     font-weight: bold;
 }
 
+main{
+    position: absolute;
+width: 76.563rem;
+height: 63rem;
+left: 13.438rem;
+}
 

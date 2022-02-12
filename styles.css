@@ -138,5 +138,21 @@ main div{
     height: 100%;
     padding-left: 10rem;
 }
+form{
+    border: #5e5eff solid 3px;
+    display: grid;
+    margin-top: 1rem;
+}
+
+label{
+    padding-bottom: 1rem;
+}
+
+input{
+    width: 5%;
+}
+.contact-me{
+    border: black solid 2px;
+}
 
 
